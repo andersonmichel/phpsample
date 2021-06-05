@@ -36,12 +36,12 @@ Para acessar o endpoint passamos o valor em uma query-var chamada **route**
 ### Exemplos de uso
 **Listando todos os usuários**
 
-`GET` localhost/phpsample/7/?route=/user
+`GET` localhost/phpsample/7/?route=/users
 
 -------------
 **Inserindo um novo usuário**
 
-`POST` localhost/phpsample/7/?route=/user/add
+`POST` localhost/phpsample/7/?route=/users/add
 
 {  
 	"first_name": "Foo",  
@@ -53,7 +53,7 @@ Para acessar o endpoint passamos o valor em uma query-var chamada **route**
 -------------
 **Editando um usuário**
 
-`POST` localhost/phpsample/7/?route=/user/example@example.com/update
+`POST` localhost/phpsample/7/?route=/users/example@example.com/update
 
 {  
 	"first_name": "Foo 2",  
@@ -65,7 +65,7 @@ Para acessar o endpoint passamos o valor em uma query-var chamada **route**
 -------------
 **Removendo um usuário**
 
-`POST` localhost/phpsample/7/?route=/user/example@example.com/delete
+`POST` localhost/phpsample/7/?route=/users/example@example.com/delete
 
                     
 ### Armazenamento
