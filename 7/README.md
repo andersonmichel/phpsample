@@ -65,7 +65,7 @@ Para acessar o endpoint passamos o valor em uma query-var chamada **route**
 -------------
 **Removendo um usuário**
 
-`POST` localhost/phpsample/7/?route=/user/example@example.com/update
+`POST` localhost/phpsample/7/?route=/user/example@example.com/delete
 
                     
 ### Armazenamento
