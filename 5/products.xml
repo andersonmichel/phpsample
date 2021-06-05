@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <name>iPhone 11 Apple (64GB) Branco Tela 6,1" 4G</name>
+        <category>Smartphones</category>
+        <stock>11</stock>
+        <price>R$ 3.999,00</price>
+    </product>
+    <product>
+        <name>USB Webcam 2.0 HD Com Microfone</name>
+        <category>Webcams</category>
+        <stock>30</stock>
+        <price>R$ 102,80</price>
+    </product>
+    <product>
+        <name>Notebook Samsung Book X40 10ª Intel Core i5</name>
+        <category>Notebooks</category>
+        <stock>12</stock>
+        <price>R$ 4.084,99</price>
+    </product>
+    <product>
+        <name>Impressora Multifuncional HP Ink Advantage 2776</name>
+        <category>Webcams</category>
+        <stock>3</stock>
+        <price>R$ 417,99</price>
+    </product>
+</products>
