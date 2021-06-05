@@ -1,3 +1,5 @@
+# REST API - Documentação
+
 ### Descrição
 
 REST API simples criada em php para exemplificação do conceito principal por trás do funcionamento. Para simplificar não usaremos rotas amigáveis, validações complexas e mensagens de erros mais elaboradas, além de métodos de requisição do tipo PUT e DELETE, deixando todas as ações por conta de GET e POST. Para testar as requisições recomenda-se o uso de programas como o [Postman](https://www.postman.com/ "Postman") ou o [Insomnia](https://insomnia.rest/ "Insomnia").
