@@ -5,68 +5,68 @@ REST API simples criada em php para exemplificação do conceito principal por t
 ### Compatibilidade
 PHP >=  7.0
                     
-###Endpoints
+### Endpoints
 
 | Método | Rota | Descrição |
-| ------------- | ------------------------------ |
+| ------------- | ------------- | ------------- |
 | GET | `/users`      | Obtém a lista de todos os usuários. |
 | POST | `/users/add`   | Insere um usuário. |
 | POST | `/users/{email}/update`      | Atualiza os dados de um usuário. |
 | POST | `/users/{email}/delete`      | Remove um usuário da lista. |
 
 
-###Campos
+### Campos
 
 - Válido para inserção e edição de usuários
 
 | Nome do campo  | Descrição do campo | Obrigatório |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- |
 | `first_name`  | Nome do usuário  | Sim |
 | `last_name`  | Sobrenome do usuário  | Sim |
 | `email`  | E-mail do usuário  | Sim |
 | `phone`  | Telefone do usuário  | Sim |
 
                     
-###Acesso
+### Acesso
 Para acessar o endpoint passamos o valor em uma query-var chamada **route**
 - ?route=`caminho_da_rota`
 
-###Exemplos de uso
+### Exemplos de uso
 **Listando todos os usuários**
 
-`GET` localhost/candt/example7/?route=/user
+`GET` localhost/phpsample/7/?route=/user
 
 -------------
 **Inserindo um novo usuário**
 
-`POST` localhost/candt/example7/?route=/user/add
+`POST` localhost/phpsample/7/?route=/user/add
 
-{
-	"first_name": "Foo",
-	"last_name": "Baar",
-	"email": "example@example.com",
-	"phone": "(99) 99999-9999"
-}
+{  
+	"first_name": "Foo",  
+	"last_name": "Baar",  
+	"email": "example@example.com",  
+	"phone": "(99) 99999-9999"  
+}  
 
 -------------
 **Editando um usuário**
 
-`POST` localhost/candt/example7/?route=/user/example@example.com/update
+`POST` localhost/phpsample/7/?route=/user/example@example.com/update
 
-{
-	"first_name": "Foo",
-	"last_name": "Baar",
-	"email": "example@example.com",
-	"phone": "(99) 99999-9999"
-}
+{  
+	"first_name": "Foo 2",  
+	"last_name": "Baar 2",  
+	"email": "example@example.com",  
+	"phone": "(99) 99999-9999"  
+}  
 
 -------------
 **Removendo um usuário**
 
-`POST` localhost/candt/example7/?route=/user/example@example.com/update
+`POST` localhost/phpsample/7/?route=/user/example@example.com/update
 
                     
-###Armazenamento
+### Armazenamento
 
 Os dados são armazenados no arquivo `registros.txt`, na raiz da pasta.
 
