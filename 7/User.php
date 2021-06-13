@@ -66,7 +66,7 @@ class User {
         return false;
     }
 
-    public function delete( $data, $email ) {
+    public function delete( $email ) {
         foreach ( $this->users as $i => $user ) {
             if ( $user['email'] == $email ) {
                 $delete = $i;

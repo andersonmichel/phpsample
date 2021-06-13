@@ -29,7 +29,7 @@ $router->post('/users/:email/update', function ( $data, $params ) {
 
 $router->post('/users/:email/delete', function ( $data, $params ) {
     global $user;
-    if ( $user->delete( $data, $params['email'] ) ) { 
+    if ( $user->delete( $params['email'] ) ) { 
         return ['success' => 'Usuário excluído'];
     }
     return ['error' => 'Nenhum usuário excluído'];
